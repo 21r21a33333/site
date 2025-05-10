@@ -1,6 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
+import aboutUs from "/src/assets/imgs/aboutUs.svg";
+import services from "/src/assets/imgs/service.svg";
+import capabilities from "/src/assets/imgs/capabilities.svg";
+import industries from "/src/assets/imgs/industries.svg";
+import quality from "/src/assets/imgs/quality.svg";
 import { FiArrowRight } from "react-icons/fi";
 
 export const HoverImageLinks = () => {
@@ -10,31 +15,31 @@ export const HoverImageLinks = () => {
         <Link
           heading="About"
           subheading="Learn what we do here"
-          imgSrc="/src/assets/imgs/aboutUs.svg"
+          imgSrc={aboutUs}
           href="#"
         />
         <Link
           heading="Services"
           subheading="Learn What Services We Offer"
-          imgSrc="/src/assets/imgs/service.svg"
+          imgSrc={services}
           href="#"
         />
         <Link
           heading="Capabilities"
           subheading="Our work speaks for itself"
-          imgSrc="/src/assets/imgs/capabilities.svg"
+          imgSrc={capabilities}
           href="#"
         />
         <Link
           heading="Industries"
           subheading="We work with a variety of industries"
-          imgSrc="/src/assets/imgs/industries.svg"
+          imgSrc={industries}
           href="#"
         />
         <Link
           heading="Quality"
           subheading="We take quality seriously"
-          imgSrc="/src/assets/imgs/quality.svg"
+          imgSrc={quality}
           href="#"
         />
       </div>
